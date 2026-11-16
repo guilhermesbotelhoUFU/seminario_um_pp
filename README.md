@@ -14,6 +14,7 @@ autovalores** de uma matriz simétrica tridiagonal, um de cada vez.
 | `fortran/bissecao_serial.f90` | o trecho em Fortran, serial (comparativo) |
 | `python/bissecao.py` | o mesmo trecho traduzido para Python puro, serial |
 | `python/bissecao_mpi.py` | o mesmo código do Python serial, com as chamadas MPI a mais (linhas marcadas `# [MPI]`) |
+| `COMO_FUNCIONA_MPI.md` | explicação do `main()` da versão MPI, com diagramas: o que o MPI faz e onde o trabalho é dividido |
 
 As duas versões em Python têm **as mesmas funções, linha por linha**. A única
 diferença está no `main()`: no paralelo, cada processo calcula só alguns
