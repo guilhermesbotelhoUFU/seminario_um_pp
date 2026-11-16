@@ -1,0 +1,8 @@
+# executável gerado pelo gfortran (compile com o comando do README)
+bissecao_serial_f
+*.mod
+*.o
+
+# Python
+__pycache__/
+*.pyc
